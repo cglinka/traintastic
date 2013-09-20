@@ -22,4 +22,10 @@ class Train
       'diesel'
     end
   end
+
+  def trip_distance(duration)
+    duration * @speed
+    #WHOA... that is cool. 
+    #this is a terrible place for a comment. 
+  end
 end
