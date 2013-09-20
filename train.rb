@@ -10,13 +10,10 @@ class Train
     @speed = speed
   end
 
-<<<<<<< HEAD
   def trip_duration(distance)
     distance * @speed
   end
   
-end
-=======
   # Returns the String type of power for this train.
   def power_source
     if @model.include?('-A')
@@ -26,4 +23,3 @@ end
     end
   end
 end
->>>>>>> origin/master
